@@ -8,7 +8,7 @@
 This project analyses the aeroelastic behaviour of a large flexible aircraft (A340-class)
 at cruise, covers its structural response to atmospheric turbulence, and implements an
 active control law to reduce wing loads. The analysis is done in Python using a
-linear state-space model loaded from the course MATLAB data.
+linear state-space model.
 
 For the full write-up see **[REPORT.md](REPORT.md)**.
 
@@ -44,7 +44,6 @@ Turbulence_and_Flexible_Aircraft/
 ├── tests/                      <- pytest (25 tests, all passing)
 ├── models/AC_model.mat         <- state-space model (read-only)
 ├── results/figures/            <- saved PNG figures
-└── lib/                        <- original MATLAB reference scripts
 ```
 
 ## Key results
